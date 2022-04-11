@@ -96,7 +96,7 @@ exports.tweet = functions.https.onRequest(async (request, response) => {
   roundOffBalance = roundOffBalance.slice(0, -9);
   console.log(roundOffBalance);
 
-  const nextTweet = `Vitalik has ${"$"}${roundOffBalance} worth of Ethereum! ⚡️`;
+  const nextTweet = `Vitalik has ${"$"}${roundOffBalance} worth of ETH ⚡️ #Ethereum!`;
 
   if (nextTweet.length > 0) {
     console.log(`New Tweet: ${nextTweet}`);
