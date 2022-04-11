@@ -16,9 +16,9 @@ const twitterClient = new TwitterApi({
 
 const port = 5000;
 
-const projectId = "vitalik-balance-bot"; // example: "balance-bot"
+const projectId = "YOUR-APP-NAME"; // example: "balance-bot"
 
-const projectRegion = "us-central1"; // example: "us-central1"
+const projectRegion = "YOUR-APP-REGION"; // example: "us-central1"
 
 const functionsURL = `http://127.0.0.1:${port}/${projectId}/${projectRegion}`;
 
